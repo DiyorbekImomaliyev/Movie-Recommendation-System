@@ -1,6 +1,5 @@
 """
 Movie Recommendation System Views
-Integrates with advanced TMDB model training system
 """
 import logging
 import os
@@ -29,7 +28,6 @@ _LOAD_ERROR = None
 
 
 class MovieRecommender:
-    """Integrated recommender system matching training/infer.py logic"""
     
     def __init__(self, model_dir='models', progress_callback=None):
         """Initialize with trained model directory"""
