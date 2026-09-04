@@ -427,10 +427,7 @@ DATABASES = {
 }
 ```
 
-**Production (PostgreSQL - recommended):**
-```python
-# Install: pip install dj-database-url psycopg2-binary
-import dj_database_url
+
 
 DATABASES = {
     'default': dj_database_url.config(

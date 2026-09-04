@@ -1,7 +1,4 @@
-"""
-Advanced Movie Recommendation System - Training Pipeline
-Optimized for TMDB Movies Dataset 2023 (930K+ movies)
-"""
+
 
 import pandas as pd
 import numpy as np
